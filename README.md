@@ -1,5 +1,5 @@
 # npxcard
-[npm] card for Cedric AUDRIT
+> Awesome [npm] card for Cedric AUDRIT
 
 ## Usage
 
