@@ -1,0 +1,32 @@
+{
+  "name": "npxcard",
+  "version": "0.0.1",
+  "description": "My npx card - A personal card for Cedric AUDRIT (@freecey)",
+  "main": "npxcard.js",
+  "bin": {
+    "freecey": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Freecey/npxcard.git"
+  },
+  "keywords": [
+    "npx",
+    "card"
+  ],
+  "author": "Cedric AUDRIT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Freecey/npxcard/issues"
+  },
+  "homepage": "https://github.com/Freecey/npxcard#readme",
+  "dependencies": {
+    "boxen": "^5.0.0",
+    "chalk": "^4.1.0",
+    "const": "^1.0.0",
+    "figletify": "^0.2.0"
+  }
+}
