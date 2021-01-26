@@ -1,6 +1,6 @@
 {
   "name": "@freecey/npxcard",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "My npx card - A personal card for Cedric AUDRIT (@freecey)",
   "main": "index.js",
   "bin": {
