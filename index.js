@@ -17,17 +17,17 @@ nameASCI = chalk.red(nameASCI);
 // Text + chalk definitions
 const data = {
     // name: chalk.white.bold(nameASCI),
-    work: chalk.white("                     Junior WebDev / SysAdmin"),
+    work: chalk.magenta("Junior WebDev / SysAdmin"),
          npm: chalk.cyan("                   https://npmjs.com/") + chalk.green("~freecey"),
       github: chalk.cyan("                https://github.com/") + chalk.green("freecey"),
     linkedin: chalk.cyan("   https://linkedin.com/in/") + chalk.green("cedric-audrit"),
          web: chalk.cyan("                        https://www.audrit.be"),
          npx: chalk.cyan("npx") + " " + chalk.cyan("freecey"),
-    labelNpm: chalk.white.bold(     "        npm:"),
-    labelGitHub: chalk.white.bold(  "        GitHub:"),
-    labelLinkedIn: chalk.white.bold("        LinkedIn:"),
-    labelWeb: chalk.white.bold(     "        Web:"),
-    labelCard: chalk.white.bold(    "                         Card:"),
+    labelNpm: chalk.white.bold(     "npm:"),
+    labelGitHub: chalk.white.bold(  "GitHub:"),
+    labelLinkedIn: chalk.white.bold("LinkedIn:"),
+    labelWeb: chalk.white.bold(     "Web:"),
+    labelCard: chalk.white.bold(    "Card:"),
 };
 
 const NEWLINE = "\n";
@@ -54,6 +54,8 @@ console.log(
                 padding: 1,
                 margin: 1,
                 borderStyle: 'double',
+                float: 'center',
+                align: 'center',
             },
         ),
     ),
