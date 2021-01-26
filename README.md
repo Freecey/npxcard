@@ -1,6 +1,7 @@
+# npxcard
 [npm] card for Cedric AUDRIT
 
-# Usage
+## Usage
 
 Via npx:
 
